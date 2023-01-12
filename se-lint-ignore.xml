@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-57.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Titlecase: "The" is correct, as it belongs to the name of the place.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
