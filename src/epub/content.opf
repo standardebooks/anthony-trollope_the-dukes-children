@@ -56,14 +56,20 @@
 		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">sh2008108192</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Palliser</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">6</meta>
+		<dc:description id="description">The widowed Duke of Omnium struggles to come to terms with the choices of his children as they attain adulthood.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Almost since the first appearance of Plantagenet Palliser in the novels of &lt;a href="https://standardebooks.org/ebooks/anthony-trollope"&gt;Anthony Trollope&lt;/a&gt;, he has been accompanined by his effervescent wife, Lady Glencora. As the final installment of the &lt;a href="https://standardebooks.org/collections/palliser"&gt;Palliser&lt;/a&gt; series begins, she has been cruelly taken from him by a fatal illness, just at the moment when their three children are making their way in the world—and finding marriage partners of their own. But the younger generation does not seem to share the Duke’s values. The loves of both his eldest son and his only daughter in particular trouble him deeply, bringing into conflict his intellectual commitments and his emotional attachments.&lt;/p&gt;
+			&lt;p&gt;As with &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/anthony-trollope/phineas-finn"&gt;Phineas Finn&lt;/a&gt;&lt;/i&gt;, there are three notable female characters to add to Trollope’s roster of impressive women: Lady Mabel Grex, the American Isabel Boncassen, and the youngest of the Duke’s children, Lady Mary. The last in particular serves as a foil to the disappointments of Lady Laura Standish seen in the previous novels, and explores again the might-have-beens of choices gone awry.&lt;/p&gt;
+			&lt;p&gt;In other ways, too, &lt;i&gt;The Duke’s Children&lt;/i&gt; gathers up themes from earlier Palliser novels: forgiveness, constancy, the maturing of youth, the constraints of nature, the disruptions of chance. Importantly, too, it displays complexities of political commitments from the vantage point of a younger generation coming of age. All this seems to have been deliberate. The manuscript for the novel shows Trollope made cuts—very rare in his corpus—of about 65,000 words at the request of the publisher. These often develop more explicitly the back-references to the earlier novels.&lt;/p&gt;
+			&lt;p&gt;As the series concludes, Trollope finally gives vent to his own bitter experience of parliamentary elections: “Parliamentary canvassing is not a pleasant occupation. Perhaps nothing more disagreeable, more squalid, more revolting to the senses, more opposed to personal dignity, can be conceived.” This account is often to taken to arise out of Trollope’s own experience of campaigning in Beverly where he stood as a Liberal candidate in east Yorkshire. Despite Trollope’s disgust at the process, and disappointment at the outcome, &lt;i&gt;The Duke’s Children&lt;/i&gt; ends with the Duke of Omnium returning to office, and an optimistic outlook for the political careers of the next generation.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3622</dc:source>
 		<dc:source>https://archive.org/details/dukeschildrennov00troluoft</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">[Editorial] In chapters 8 to 30, "Morton" has been corrected to "Moreton" to maintain consistency with the other references to this character.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Duke%27s_Children</meta>
@@ -73,10 +79,11 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anthony_Trollope</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78089077</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Florence Carlyle</dc:contributor>
+		<meta property="file-as" refines="#artist">Carlyle, Florence</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Florence Emily Carlyle</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Florence_Carlyle</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n2005014822</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Kenneth David Cooper</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Cooper, Kenneth David</meta>
