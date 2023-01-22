@@ -6,4 +6,10 @@
 			<reason>Titlecase: "The" is correct, as it belongs to the name of the place.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-62.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>False positive on "Possessive ’s within name italics": it belongs to italicized title.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
